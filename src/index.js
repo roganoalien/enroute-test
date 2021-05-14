@@ -8,11 +8,14 @@ import store from './redux/store';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Layout from './layout';
 
 ReactDOM.render(
 	<React.StrictMode>
 		<Provider store={store}>
-			<App />
+			<Layout>
+				<App />
+			</Layout>
 		</Provider>
 	</React.StrictMode>,
 	document.getElementById('root')
