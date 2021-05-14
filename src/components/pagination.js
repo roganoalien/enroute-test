@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid';
 // local
